@@ -1,0 +1,30 @@
+div > p {
+    background-color: grey;
+    /*las tag p que estan dentro del div obtendran un color de fondo gris mietras que las que estan afuera no cambian.*/
+  }
+  #Titulo1{
+      color: red;
+      /*utilizando id en el html se le cambia el color del h1*/
+  }
+  .subTitulo1{
+      color: pink;
+      /*utilizando class en el html se le cambia de color al h3 que se utilizo*/
+  }
+  a:active {
+    background-color: yellow;
+    /*al seleccionar el link debe de generar un fondo amarillo en el texto.*/
+  }
+  p:empty {
+    width: 100px;
+    height: 20px;
+    background: grey;
+    /*tag p la cual esta vacia, generara un cuadrado de color gris con la altura y ancho especificado.*/
+  }
+  a[target] {
+    background-color: green;
+    /*los tags que tengan a y target ejecutaran lo que esta en el css mientras que los otros no.*/
+  }
+  [title~=dog] {
+    border: 5px solid red;
+    /*selecciona el titulo dentro de un tag y ejecuta lo que se le dice en el css en este caso un borde rojo*/
+  }
